@@ -1,98 +1,148 @@
 <html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Samochody</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Samochody</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- CSS only -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
 
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="css/style.css">
+  <body>
+    <div class="navigation">
+      <!--Navbar-->
+      <nav class="navbar navbar-light lighten-4 mb-4 fixed-top">
+        <!-- Navbar brand -->
 
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="js/index.js"></script>
+        <!-- Collapse button -->
+        <button
+          class="navbar-toggler first-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent20"
+          aria-controls="navbarSupportedContent20"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="buttontest"
+        >
+          <div class="animated-icon1" id="ikona">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
 
-</head>
-
-<body>
-  <div class="navigation">
-    <!--Navbar-->
-    <nav class="navbar navbar-light lighten-4 mb-4 fixed-top">
-
-      <!-- Navbar brand -->
-
-      <!-- Collapse button -->
-      <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
-        aria-label="Toggle navigation" id="buttontest">
-        <div class="animated-icon1" id="ikona"><span></span><span></span><span></span></div>
-      </button>
-
-      <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <!-- Links -->
-
-      </div>
-      <!-- Collapsible content -->
-      <a class="navbar-brand" href="#">MOTOFOTO</a>
-
-    </nav>
-    <!--/.Navbar-->
-  </div>
-
-
-    <div class="row my-4">
-      <div class="col-md-4"> </div>
-      <div class="col-md-8"> <img src="bin/IMG_2255-fin.jpg" class="img-fluid"> </div>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <!-- Links -->
+        </div>
+        <!-- Collapsible content -->
+        <a class="navbar-brand" href="#">MOTOFOTO</a>
+      </nav>
+      <!--/.Navbar-->
     </div>
 
     <div class="row my-4 p-0 m-0">
-      <div class="col-xs-4 p-0 m-0"> <img src="bin/foto_dlugie_1_ciemne.jpg" class="mx-auto"> </div>
-      <div class="col-xs-4 p-0 m-0"> <img src="bin/foto_dlugie_2_ciemne.jpg" class="mx-auto"> </div>
-      <div class="col-xs-4 p-0 m-0"> <img src="bin/foto_dlugie_3_ciemne.jpg" class="mx-auto"> </div>
+      <div class="col-xs-2 col-md-4 pl-2">
+        <h3>Suzuki </h3>
+        <h3>VITARA </h3>
+        <p> Chwyć za aparat i sprawdź, jak fascynująca może być fotografia samochodowa</p>
+      </div>
+      <div class="col-xs-10 col-md-8 p-0">
+        <img src="bin/IMG_2255-fin.jpg" class="img-wide" />
+      </div>
+    </div>
+
+    <div class="row my-4 p-0 m-0">
+      <div class="col-xs-12 col-md-4 p-0 m-0">
+        <img src="bin/foto_dlugie_1_ciemne.jpg" class="img-long" />
+      </div>
+      <div class="col-xs-12 col-md-4 p-0 m-0">
+        <img src="bin/foto_dlugie_2_ciemne.jpg" class="img-long" />
+      </div>
+      <div class="col-xs-12 col-md-4 p-0 m-0">
+        <img src="bin/foto_dlugie_3_ciemne.jpg" class="img-long" />
+      </div>
     </div>
 
     <div class="container">
@@ -102,41 +152,49 @@
         </div>
       </div>
       <div class="row">
-
         <div class="col">
-          <img src="bin/dodatki-06.png" class="img-fluid imgtest">
+          <img src="bin/dodatki-06.png" class="img-fluid imgtest" />
           <h2>Oczami Patryka Mikiciuka</h2>
-          <p class="p2"></p>Patryk Mikiciuk, pierwszy polski dziennikarz, który mógł się ściagać w prestiżowym gronie
-          amerykańskich
-          gwiazd autostrady.</p>
-          <p><a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a></p>
+          <p class="p2">
+            Patryk Mikiciuk, pierwszy polski dziennikarz, który mógł się ściagać
+            w prestiżowym gronie amerykańskich gwiazd autostrady.
+          </p>
+          <p>
+            <a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a>
+          </p>
         </div>
 
         <div class="col">
-          <img src="bin/dodatki-07.png" class="img-fluid imgtest">
+          <img src="bin/dodatki-07.png" class="img-fluid imgtest" />
           <h2>Magia Ferrari. Przegląd nowych modeli.</h2>
-          <p class="p2">"Rozejrzałem się dookoła i nie mogłem znaleźć dla siebie samochodu, o którym marzyłem. Dlatego
-            podjąłem
-            decyzję, że zbuduję go sam."</p>
-          <p><a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a></p>
+          <p class="p2">
+            "Rozejrzałem się dookoła i nie mogłem znaleźć dla siebie samochodu,
+            o którym marzyłem. Dlatego podjąłem decyzję, że zbuduję go sam."
+          </p>
+          <p>
+            <a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a>
+          </p>
         </div>
 
         <div class="col">
-          <img src="bin/dodatki-08.png" class="img-fluid imgtest">
+          <img src="bin/dodatki-08.png" class="img-fluid imgtest" />
           <h2>Richard Pardon</h2>
           <p class="p2">"KRÓL FOTOGRAFII MOTORYZACYJNEJ"</p>
-          <p><a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a></p>
+          <p>
+            <a class="btn btn-dark" href="#" role="button">Więcej &raquo;</a>
+          </p>
         </div>
-
       </div>
-
+    </div>
       <div class="row">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="bin/Richard.mp4" allowfullscreen></iframe>
+          <iframe
+            class="embed-responsive-item"
+            src="bin/Richard.mp4"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
-
-
-</body>
-
+    
+  </body>
 </html>
