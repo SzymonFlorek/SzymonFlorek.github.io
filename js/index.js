@@ -1,15 +1,21 @@
 $(document).ready(function () {
 
   $('.first-button').on('click', function () {
-
     $('.animated-icon1').toggleClass('open');
-  });
-  $('.second-button').on('click', function () {
+    var elem = $("#navbarSupportedContent20");
 
-    $('.animated-icon2').toggleClass('open');
+    if (elem.hasClass('show')) {
+      elem.removeClass('show');
+      $('.animated-icon1').removeClass('open');
+    }
   });
-  $('.third-button').on('click', function () {
 
-    $('.animated-icon3').toggleClass('open');
+  $(".nav-link").on("click", function () {
+    var elem = $("#navbarSupportedContent20");
+
+    if (elem.hasClass('show')) {
+      elem.toggleClass('show');
+      $('.animated-icon1').toggleClass('open');
+    }
   });
 });

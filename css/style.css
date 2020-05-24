@@ -19,6 +19,10 @@ h2 {
   font-family: 'Montserrat';
 }
 
+.p2 {
+  font-family: 'Montserrat';
+  font-size: 9px;
+}
 .fa-1x {
   font-size: 1.5rem;
 }
@@ -46,6 +50,11 @@ h2 {
 	 float:left;
 	 width:200px;
 	 height:20px;
+}
+
+.imgtest{
+  margin: 0 auto;
+
 }
 /* Icon 1 */
 
