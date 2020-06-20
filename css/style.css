@@ -40,10 +40,18 @@ h4 {
   font-size: 75px;
   margin-top:0px;
 }
+
 .p2 {
   font-family: 'Montserrat';
-  font-size: 9px;
+  font-size: 15px;
 }
+
+.p3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .fa-1x {
   font-size: 1.5rem;
 }
